@@ -43,7 +43,7 @@ variable "vm_size" {
 }
 
 variable "os_disk_vhd_uri" {
-  description = "Uhttps://myrepos.blob.core.windows.net/system/Microsoft.Compute/Images/rancher/Packer_Docker_K8s-osDisk.4213faa2-6f7f-4223-8555-581eea57275c.vhd"
+  description = "https://XXX/system/Microsoft.Compute/Images/rancher/Packer_Docker_K8s-osDisk.4213faa2-6f7f-4223-8555-581eea57275c.vhd"
 }
 
 variable "vhd_uri" {
@@ -67,7 +67,7 @@ variable "ssh_keys_path" {
 }
 
 variable "ssh_keys_key_data" {
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwyZsyvFjfTNZWtAZ6JOXvv8yz+yn7be5dOt4ao8AHZN9Xhqrv/1gt/vR1ZD2i/b2MFfYO79Uk6FuGttnnNyvY/5cyGfSbvFylGCEk08W0VtSpME1Cbl9X54M4ZJnDxcv+GZ01UUc+J5i5UF+FNHEcuDvYHNX2mv0Hs8TceNKCs1zBlQfNgrS7/qfUPTg0/cl2f2gsn/xxH+JtTaRCo056CHjKluxyvi2pEjUpx/9gMfDOZZm9KHHXENtYw9jrOMY0WiwDxNFhMeeqCsrGX6z+o6eBcdfYg2JS2ZjmUqx4dQ22cuxXGBHinPlxsz/aAUBvK00LYivToZrkZnnQtSo7 Matthieu@MacBook-Pro-de-Matthieu.local"
+  default     = "XXX"
 }
 
 ## By default ##
